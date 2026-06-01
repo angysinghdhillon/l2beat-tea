@@ -141,6 +141,7 @@ import { sxnetwork } from '../projects/sxnetwork/sxnetwork'
 import { sxt } from '../projects/sxt/sxt'
 import { syndicate } from '../projects/syndicate/syndicate'
 import { taiko } from '../projects/taiko/taiko'
+import { tea } from '../projects/tea/tea'
 import { termstructure } from '../projects/termstructure/termstructure'
 import { ternoa } from '../projects/ternoa/ternoa'
 import { thebinaryholdings } from '../projects/thebinaryholdings/thebinaryholdings'
@@ -305,6 +306,7 @@ export const layer2s: ScalingProject[] = [
   sxnetwork,
   sxt,
   taiko,
+  tea,
   brine,
   termstructure,
   ternoa,
