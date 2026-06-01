@@ -7,9 +7,7 @@ import { opStackL2 } from '../../templates/opStack'
 
 const discovery = new ProjectDiscovery('tea')
 
-// TODO: Update with actual block 0 timestamp once RPC is live
-// Contracts deployed 2026-05-25. Query: GET https://scout.tea.xyz/api/v2/blocks/0
-const genesisTimestamp = UnixTime(1779667200) // 2026-05-25T00:00:00Z placeholder
+const genesisTimestamp = UnixTime(1748225723) // 2026-05-26T03:15:23Z
 
 export const tea: ScalingProject = opStackL2({
   addedAt: UnixTime(1748131200), // 2026-05-25T00:00:00Z
